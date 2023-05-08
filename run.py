@@ -8,5 +8,9 @@ st.write(
     "La aplicación permite consultar el porcentaje de beca de cada estudiante."
     )
 
-st.text_input("Favor ingrese la cédula del estudiante.", height=50)
+
+a, b, c  = st.columns(3)
+
+with b:
+    st.text_input("Favor ingrese la cédula del estudiante.", height=50)
 
