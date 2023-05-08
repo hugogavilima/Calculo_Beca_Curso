@@ -16,7 +16,7 @@ df = df.rename(columns={"NOMBRE_CARRERA": "Carrera",
 
 
 def buscar(cedula):
-    lts = ["Carrera", "Énfasis", "Grado", "Curso", "Beca Media", "Máximo de Beca"]
+    lts = ["MARCA", "SEDE", "NOMBRE_FACULTAD", "Carrera", "Énfasis", "Grado", "Curso", "Beca Media", "Máximo de Beca"]
     
     ff = df.loc[(df["CedulaPasaporte"] == cedula), lts]   
     
