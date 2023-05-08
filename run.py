@@ -12,5 +12,5 @@ st.write(
 a, b, c  = st.columns(3)
 
 with b:
-    st.text_input("Favor ingrese la cédula del estudiante.", height=50)
+    st.text_input("Favor ingrese la cédula del estudiante.")
 
